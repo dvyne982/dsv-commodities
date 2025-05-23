@@ -46,6 +46,10 @@
     .buttons a:hover {
       background-color: #7c5c4a;
     }
+    .buttons a .icon {
+      margin-right: 8px;
+      vertical-align: middle;
+    }
     footer {
       text-align: center;
       padding: 20px;
@@ -53,6 +57,7 @@
       margin-top: 40px;
     }
   </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
@@ -85,11 +90,19 @@
     </ul>
 
     <div class="buttons">
-      <a href="https://t.me/DSVcommodities" target="_blank">Contact via Telegram</a>
-      <a href="https://wa.me/256783282878" target="_blank">Chat on WhatsApp</a>
+      <a href="https://t.me/DSVcommodities" target="_blank"><i class="fab fa-telegram icon"></i>Telegram</a>
+      <a href="https://wa.me/256783282878" target="_blank"><i class="fab fa-whatsapp icon"></i>WhatsApp</a>
       <a href="product_details.pdf" target="_blank">Download Catalog</a>
       <a href="mailto:dsvcommodities@proton.me">Email Us</a>
     </div>
+
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/mzzrqygq" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required style="width:100%; padding:10px; margin-bottom:10px;"><br>
+      <input type="email" name="_replyto" placeholder="Your Email" required style="width:100%; padding:10px; margin-bottom:10px;"><br>
+      <textarea name="message" placeholder="Your Message" required style="width:100%; padding:10px; margin-bottom:10px;"></textarea><br>
+      <button type="submit" style="padding:12px 20px; background:#5c4033; color:#fff; border:none; border-radius:6px;">Send</button>
+    </form>
   </div>
 
   <footer>
