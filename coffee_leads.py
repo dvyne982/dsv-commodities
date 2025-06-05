@@ -20,7 +20,7 @@ LOG_FILE = "email_leads_log.csv"
 # Send product offer email
 def send_email(recipient, attachment_path, source_url):
     msg = EmailMessage()
-    msg['Subject'] = "Premium Coffee Beans Offer from D.S.V Commodities"
+    msg['Subject'] = "Premium Coffee_media Beans Offer from D.S.V Commodities"
     msg['From'] = EMAIL_SENDER
     msg['To'] = recipient
 
