@@ -36,12 +36,6 @@
       user-select: none;
     }
 
-    .error-message {
-      color: red;
-      font-size: 14px;
-      text-align: center;
-    }
-
     footer {
       text-align: center;
       padding: 20px;
@@ -49,92 +43,40 @@
       font-size: 14px;
     }
   </style>
+  <script>
+    // Disable right-click
+    document.addEventListener('contextmenu', event => event.preventDefault());
+  </script>
 </head>
 <body>
 
   <header>
     <h1>DSV Commodities – Media Gallery</h1>
-    <p>View Our Coffee Journey – Testing without no-download restrictions</p>
+    <p>View Our Coffee Journey – No Downloads Allowed</p>
   </header>
 
   <div class="media-grid">
     <!-- Images -->
-    <div>
-      <img src="/static/Coffee_media/Coffee-1.jpg" alt="Coffee Image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-      <p class="error-message" style="display:none;">Error: /static/Coffee_media/Coffee-1.jpg not found or failed to load.</p>
-    </div>
-    <div>
-      <img src="static/Coffee_media/Coffee-1.jpg" alt="Coffee Image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-      <p class="error-message" style="display:none;">Error: static/Coffee_media/Coffee-1.jpg not found or failed to load.</p>
-    </div>
-    <div>
-      <img src="/static/Coffee_media/Coffee-2.jpg" alt="Coffee Image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-      <p class="error-message" style="display:none;">Error: /static/Coffee_media/Coffee-2.jpg not found or failed to load.</p>
-    </div>
-    <div>
-      <img src="static/Coffee_media/Coffee-2.jpg" alt="Coffee Image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-      <p class="error-message" style="display:none;">Error: static/Coffee_media/Coffee-2.jpg not found or failed to load.</p>
-    </div>
-    <div>
-      <img src="/static/Coffee_media/Coffee-3.jpg" alt="Coffee Image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-      <p class="error-message" style="display:none;">Error: /static/Coffee_media/Coffee-3.jpg not found or failed to load.</p>
-    </div>
-    <div>
-      <img src="static/Coffee_media/Coffee-3.jpg" alt="Coffee Image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-      <p class="error-message" style="display:none;">Error: static/Coffee_media/Coffee-3.jpg not found or failed to load.</p>
-    </div>
-    <div>
-      <img src="/static/Coffee_media/Coffee-4.jpg" alt="Coffee Image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-      <p class="error-message" style="display:none;">Error: /static/Coffee_media/Coffee-4.jpg not found or failed to load.</p>
-    </div>
-    <div>
-      <img src="static/Coffee_media/Coffee-4.jpg" alt="Coffee Image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-      <p class="error-message" style="display:none;">Error: static/Coffee_media/Coffee-4.jpg not found or failed to load.</p>
-    </div>
+    <img src="static/Coffee_media/Coffee-1.jpg" alt="Coffee Image">
+    <img src="static/Coffee_media/Coffee-2.jpg" alt="Coffee Image">
+    <img src="static/Coffee_media/Coffee-3.jpg" alt="Coffee Image">
+    <img src="static/Coffee_media/Coffee-4.jpg" alt="Coffee Image">
 
     <!-- Videos -->
-    <div>
-      <video controls preload="metadata" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-        <source src="/static/Coffee_media/Arabica-1.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <p class="error-message" style="display:none;">Error: /static/Coffee_media/Arabica-1.mp4 not found or unsupported format.</p>
-    </div>
-    <div>
-      <video controls preload="metadata" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-        <source src="static/Coffee_media/Arabica-1.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <p class="error-message" style="display:none;">Error: static/Coffee_media/Arabica-1.mp4 not found or unsupported format.</p>
-    </div>
-    <div>
-      <video controls preload="metadata" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-        <source src="/static/Coffee_media/Arabica-2.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <p class="error-message" style="display:none;">Error: /static/Coffee_media/Arabica-2.mp4 not found or unsupported format.</p>
-    </div>
-    <div>
-      <video controls preload="metadata" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-        <source src="static/Coffee_media/Arabica-2.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <p class="error-message" style="display:none;">Error: static/Coffee_media/Arabica-2.mp4 not found or unsupported format.</p>
-    </div>
-    <div>
-      <video controls preload="metadata" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-        <source src="/static/Coffee_media/Arabica-3.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <p class="error-message" style="display:none;">Error: /static/Coffee_media/Arabica-3.mp4 not found or unsupported format.</p>
-    </div>
-    <div>
-      <video controls preload="metadata" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-        <source src="static/Coffee_media/Arabica-3.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <p class="error-message" style="display:none;">Error: static/Coffee_media/Arabica-3.mp4 not found or unsupported format.</p>
-    </div>
+    <video controls preload="metadata" controlsList="nodownload">
+      <source src="static/Coffee_media/Arabica-1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <video controls preload="metadata" controlsList="nodownload">
+      <source src="static/Coffee_media/Arabica-2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <video controls preload="metadata" controlsList="nodownload">
+      <source src="static/Coffee_media/Arabica-3.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
 
   <footer>
