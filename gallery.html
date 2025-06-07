@@ -22,7 +22,7 @@
 
     .media-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Reduced min-width for better mobile stacking */
       gap: 20px;
       padding: 40px 20px;
       max-width: 1200px;
@@ -41,6 +41,20 @@
       padding: 20px;
       background: #eee;
       font-size: 14px;
+    }
+    /* Media Queries for Mobile */
+    @media (max-width: 768px) {
+      .media-grid {
+        padding: 20px 10px;
+      }
+      img, video {
+        border-radius: 8px;
+      }
+    }
+    @media (max-width: 480px) {
+      .media-grid {
+        gap: 10px;
+      }
     }
   </style>
   <script>
