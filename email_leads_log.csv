@@ -1,0 +1,73 @@
+Timestamp,Email,Source URL,Status
+2025-06-07 10:16:46.317531,buyer1@example.com,https://dvyne982.github.io/dsv-commodities/,"FAILED: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-ade1d7542a6sm238416666b.11 - gsmtp')"
+2025-06-07 10:16:48.145928,buyer2@example.com,https://dvyne982.github.io/dsv-commodities/,"FAILED: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-ade1dc7b566sm230114466b.164 - gsmtp')"
+2025-06-07 10:18:25.346003,buyer1@example.com,https://dvyne982.github.io/dsv-commodities/,"FAILED: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-6077812571dsm2060998a12.0 - gsmtp')"
+2025-06-07 10:18:27.191690,buyer2@example.com,https://dvyne982.github.io/dsv-commodities/,"FAILED: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-ade1d754610sm233947066b.1 - gsmtp')"
+2025-06-07 10:22:58.824614,buyer1@example.com,https://dvyne982.github.io/dsv-commodities/,FAILED: [Errno 11001] getaddrinfo failed
+2025-06-07 10:22:58.840239,buyer2@example.com,https://dvyne982.github.io/dsv-commodities/,FAILED: [Errno 11001] getaddrinfo failed
+2025-06-07 10:39:14.770274,buyer1@example.com,https://dvyne982.github.io/dsv-commodities/,"FAILED: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-ade1d755541sm235126066b.24 - gsmtp')"
+2025-06-07 10:39:16.746312,buyer2@example.com,https://dvyne982.github.io/dsv-commodities/,"FAILED: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-ade1dc392b9sm233912166b.136 - gsmtp')"
+2025-06-07 10:54:18.573254,buyer1@example.com,https://dvyne982.github.io/dsv-commodities/,"FAILED: (534, b'5.7.9 Application-specific password required. For more information, go to\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor a640c23a62f3a-ade1db58180sm238804866b.62 - gsmtp')"
+2025-06-07 10:54:21.682283,buyer2@example.com,https://dvyne982.github.io/dsv-commodities/,"FAILED: (534, b'5.7.9 Application-specific password required. For more information, go to\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 4fb4d7f45d1cf-6077837eb84sm2074381a12.33 - gsmtp')"
+2025-06-07 11:02:40.071804,buyer1@example.com,https://dvyne982.github.io/dsv-commodities/,SENT
+2025-06-07 11:02:48.032499,buyer2@example.com,https://dvyne982.github.io/dsv-commodities/,SENT
+2025-06-07 11:02:57.825981,no-reply@accounts.google.com,reply,REPLIED
+2025-06-07 11:03:06.024065,mailer-daemon@googlemail.com,reply,REPLIED
+2025-06-07 11:03:14.161464,mailer-daemon@googlemail.com,reply,REPLIED
+2025-06-07 11:26:21.515915,buyer1@importer.com,https://coffee-expo.asia,SENT
+2025-06-07 11:26:29.588902,buyer2@retailers.africa,https://coffee.africa,SENT
+2025-06-07 11:26:39.459183,mailer-daemon@googlemail.com,reply,REPLIED
+2025-06-07 15:59:11.587997,europe@cafeimports.com,https://www.cafeimports.com/europe/blog/general-contact/,SENT
+2025-06-07 15:59:19.848602,australia@cafeimports.com,https://www.cafeimports.com/australia,SENT
+2025-06-07 15:59:27.916624,onesmusmwendwa2017@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 15:59:35.790525,lucas.oyaro@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 15:59:43.792317,warungm@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 15:59:51.672812,emmanuel.nyankabaria@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 15:59:59.821810,marketing@connectcoffee.net,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:00:07.665696,njorogemary187@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:00:16.463362,aledart1990@yahoo.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:00:24.343032,koutscoop85@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:00:32.235671,farzad_panahi2000@yahoo.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:00:40.125350,derrickngaywa@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:00:48.008787,mwangi100m@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:00:55.949913,ndyalvin@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:01:05.935043,mailer-daemon@googlemail.com,reply,REPLIED
+2025-06-07 16:07:28.010799,user@domain.com.,https://www.westcoastcoffeetraders.com/,"FAILED: {'': (555, b'5.5.2 Syntax error, cannot decode response. For more information, go to\n5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321\n5.5.2 specifications. 4fb4d7f45d1cf-607783dccbdsm2321442a12.54 - gsmtp')}"
+2025-06-07 16:07:32.133413,australia@cafeimports.com,https://www.cafeimports.com/australia,SENT
+2025-06-07 16:07:40.062616,aledart1990@yahoo.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:07:47.894752,farzad_panahi2000@yahoo.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:07:55.890548,njorogemary187@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:08:04.007882,marketing@connectcoffee.net,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:08:11.888740,derrickngaywa@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:08:19.863325,emmanuel.nyankabaria@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:08:27.738868,koutscoop85@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:08:35.659771,onesmusmwendwa2017@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:08:43.556409,warungm@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:08:53.435801,ndyalvin@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:09:01.915332,lucas.oyaro@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:11:34.329787,no-reply@accounts.google.com,reply,REPLIED
+2025-06-07 16:11:42.747345,mailer-daemon@googlemail.com,reply,REPLIED
+2025-06-07 16:16:51.078027,marketing@connectcoffee.net,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:16:59.033960,lucas.oyaro@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:17:07.015976,emmanuel.nyankabaria@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:17:14.958196,aledart1990@yahoo.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:17:22.954925,farzad_panahi2000@yahoo.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:17:31.381934,koutscoop85@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:17:39.407309,warungm@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:17:47.334147,ndyalvin@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:17:55.344693,mwangi100m@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:18:03.451622,onesmusmwendwa2017@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:18:11.445683,njorogemary187@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:18:19.368372,derrickngaywa@gmail.com,https://kenyatrade.org/kenya-coffee-exporters/,SENT
+2025-06-07 16:18:27.302889,White_Logo_Horizontal_600x@2x.png,https://help.coffeebeanery.com/kb/contact-us,SENT
+2025-06-07 16:18:35.186710,customerservice@coffeebeanery.com,https://help.coffeebeanery.com/kb/contact-us,SENT
+2025-06-07 16:18:43.195089,europe@cafeimports.com,https://www.cafeimports.com/europe/blog/general-contact/,SENT
+2025-06-07 16:18:51.031436,b.makmursby@gmail.com,https://bumi-makmur.com/,SENT
+2025-06-07 16:18:58.930840,john@doe.com,https://indochinacoffee.com/,SENT
+2025-06-07 16:19:07.038111,hello@indochinacoffee.com,https://indochinacoffee.com/,SENT
+2025-06-07 16:19:15.130481,TRADING@ICTCOFFEE.COM,https://www.ictcoffee.com/,SENT
+2025-06-07 16:19:23.025649,trading@ictcoffee.com,https://www.ictcoffee.com/,SENT
+2025-06-07 16:19:31.105772,Trading@ictcoffee.com,https://www.ictcoffee.com/,SENT
+2025-06-07 16:19:39.010014,coffee@exceltrade.com,https://www.exceltrade.com/,SENT
+2025-06-07 16:19:48.807444,mailer-daemon@googlemail.com,reply,REPLIED
+2025-06-07 16:43:58.855510,mailer-daemon@googlemail.com,reply,REPLIED
